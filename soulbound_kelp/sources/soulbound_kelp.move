@@ -1,7 +1,7 @@
 /// Module: soulbound_kelp
 module soulbound_kelp::soulbound_kelp {
 
-    public struct SoulboundKelp has key { 
+    public struct SoulboundKelp has key, store { 
         id: UID,
         minter_address: address,
     }
